@@ -1,6 +1,6 @@
-import reactLogo from './assets/react.svg'
+import reactLogo from '/react.svg'
 import viteLogo from '/vite.svg'
-import './LearnMore.css'
+import './learnMore.css'
 
 function LearnMore() {
     return (
