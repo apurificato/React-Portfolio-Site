@@ -4,7 +4,7 @@ import './learnMore.css'
 
 function LearnMore() {
     return (
-<>
+<section>
     <div>
         <h2>This Site Was Created With:</h2>
         <a href="https://vitejs.dev" target="_blank">
@@ -23,7 +23,7 @@ function LearnMore() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-</>
+</section>
     )
   }
   
