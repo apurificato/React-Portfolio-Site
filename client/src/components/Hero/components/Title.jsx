@@ -1,6 +1,6 @@
 function Title() {
     return (
-        <h1>Be a Freakin Hero Dude</h1>
+        <h1>Full Stack Developer Portfolio</h1>
     )
   }
   

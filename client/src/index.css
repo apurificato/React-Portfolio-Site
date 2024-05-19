@@ -44,14 +44,23 @@ h1 {
 
 header {
   padding: 0 3%;
+}
+
+header .brand {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 
-header nav {
-  justify-content: space-between;
+header nav a {
+  justify-content: space-betw;
+  padding-left: 25px;
+  color: #7ed957;
+  font-size: 18px;
+}
+
+header nav a:hover {
+  color: #fff;
 }
 
 button {
@@ -84,4 +93,15 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+footer .brand {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.footer-logo-item {
+  height: 40px;
 }

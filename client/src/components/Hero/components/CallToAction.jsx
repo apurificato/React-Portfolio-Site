@@ -1,6 +1,6 @@
 function CallToAction() {
     return (
-        <h2>Dont Just Stand There, Do Something!</h2>
+        <h2>Programming Your Dreams, One Project at a Time.</h2>
     )
   }
   

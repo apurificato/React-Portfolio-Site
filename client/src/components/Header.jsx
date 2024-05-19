@@ -3,10 +3,13 @@ import Navigation from './Navigation'
 function Header() {
     return (
     <header>
-        <h3>Anthony Purificato</h3>
+        <div className='brand'>
+            <a href='/'>
+                <img src='/logo.svg'></img>
+            </a>
 
-        <Navigation />
-
+            <Navigation />
+        </div>
     </header>
     )
   }
