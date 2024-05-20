@@ -5,7 +5,7 @@ function Header() {
     <header>
         <div className='brand'>
             <a href='/'>
-                <img src='/logo.svg'></img>
+                <img src='/AP-logo.svg'></img>
             </a>
 
             <Navigation />

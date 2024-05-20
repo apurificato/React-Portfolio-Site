@@ -52,6 +52,11 @@ header .brand {
   align-items: center;
 }
 
+.brand img {
+  height: 60px;
+  padding: 20px;
+}
+
 header nav a {
   justify-content: space-betw;
   padding-left: 25px;

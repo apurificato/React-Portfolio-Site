@@ -7,7 +7,7 @@ function Hero() {
     return (
     <section className="hero">
         <Title />
-
+        
         <CallToAction />
     </section>
     )
