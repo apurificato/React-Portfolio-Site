@@ -1,14 +1,10 @@
-import Title from './components/Title'
-import CallToAction from './components/CallToAction'
-
+import Titles from './components/Titles'
 import './hero.css'
 
 function Hero() {
     return (
     <section className="hero">
-        <Title />
-        
-        <CallToAction />
+        <Titles />
     </section>
     )
   }

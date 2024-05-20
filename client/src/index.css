@@ -60,12 +60,14 @@ header .brand {
 header nav a {
   justify-content: space-betw;
   padding-left: 25px;
-  color: #7ed957;
+  /* color: #7ed957; */
+  color: #f8e8b3;
   font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header nav a:hover {
-  color: #fff;
+  color: #00d8ff;
 }
 
 button {
@@ -107,6 +109,6 @@ footer .brand {
   padding: 20px;
 }
 
-.footer-logo-item {
-  height: 40px;
+a .footer-logo-item {
+  height: 30px;
 }

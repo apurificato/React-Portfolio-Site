@@ -11,15 +11,29 @@ section.hero {
     justify-content: center;
 }
 
-.hero h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 68px;
-    color: #3b3b3b;
+.titles-section {
+    padding: 0 200px;
 }
 
-.hero h2 {
+.titles-section h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: #3b3b3b;
+    text-shadow: #fff 2px 0 10px;
+}
+
+.titles-section h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 42px;
     color: #3b3b3b;
+    text-shadow: #fff 2px 0 10px;
+    margin-top: -20px;
+}
 
+.titles-section h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #3b3b3b;
+    text-shadow: #fff 2px 0 10px;
+    margin-top: -50px;
 }

@@ -15,11 +15,6 @@ function LearnMore() {
         </a>
     </div>
       <h3>Vite + React</h3>
-      <div className="card">
-        <a href='/'>
-          <button>Go Back Home</button>
-        </a>
-      </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
