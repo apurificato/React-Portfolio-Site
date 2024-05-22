@@ -1,0 +1,12 @@
+#about-me h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    padding-top: 20px;
+}
+
+#about-me p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px 50px;
+    text-align: left;
+}

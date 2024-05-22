@@ -1,9 +1,66 @@
+#portfolio-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    padding-top: 20px;
+}
+
 .portfolio-section {
     display: flex;
     justify-content: space-around;
     padding: 20px;
+    gap: 20px;
 }
 
-.work-item-1 {
-    background-image: url('/');
+.work-item-title {
+    font-size: 24px;
+    color: #fff;
+}
+
+.work-item-description {
+    font-size: 18px;
+    color: #fff;
+}
+
+#work-item-2 h3 {
+    font-size: 24px;
+    color: #3b3b3b;
+}
+
+#work-item-2 h5 {
+    font-size: 18px;
+    color: #3b3b3b;
+}
+
+.work-item-card-link {
+    width: 100%;
+}
+
+.work-item-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 260px;
+    border-radius: 4px;
+    background-size: cover;
+    justify-content: center;
+    box-shadow: inset 0 0 0 300px rgba(50, 50, 50, 0.5);
+    box-shadow: 2px 2px 10px 0px rgba(255, 255, 255, 0.75);
+    overflow: auto;
+}
+
+.work-item-card:hover {
+    cursor: pointer;
+    box-shadow: inset 0 0 0 300px rgba(181, 255, 196, 0.3);
+}
+
+#work-item-1 {
+    background-image: url('/Wine-Dine-Recipe-App.png');
+}
+
+#work-item-2 {
+    background-image: url('/Note-Taker-App.png');
+}
+
+#work-item-3 {
+    background-image: url('/WinBig-Casino-Betting-App.png');
 }

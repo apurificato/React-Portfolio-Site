@@ -7,7 +7,11 @@ import './portfolio.css'
 
 function Portfolio() {
     return (
-    <section id="portfolio" className="portfolio-section">
+    <div id="portfolio">
+
+    <h2 id="portfolio-title">See Some of the Work That Ive Done</h2>
+
+    <section className="portfolio-section">
 
         <Project1 />
 
@@ -16,6 +20,8 @@ function Portfolio() {
         <Project3 />
 
     </section>
+
+    </div>
     )
   }
   

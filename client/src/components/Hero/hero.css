@@ -13,6 +13,7 @@ section.hero {
 
 .titles-section {
     padding: 0 200px;
+    overflow: auto;
 }
 
 .titles-section h1 {
