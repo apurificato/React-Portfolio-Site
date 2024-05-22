@@ -163,14 +163,14 @@ button:focus-visible {
 
 /* FOOTER STYLES */
 footer {
-  padding-top: 50px;
+  border-top: .5px rgb(135, 135, 135) solid;
 }
 
 footer .brand {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 20px;
+  align-items: center;
 }
 
 a .footer-logo-item {

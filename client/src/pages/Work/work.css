@@ -29,6 +29,10 @@
     border-radius: 5px;
 }
 
+.work-item h3 {
+  text-align: center;
+}
+
 .work-item #work-link-1 {
   color: rgb(190, 255, 124);
   padding-right: 20px;
@@ -45,6 +49,11 @@
 
 #work-link-2:hover {
   color: #3b3b3b;
+}
+
+.work-links {
+  display: flex;
+  justify-content: space-around;
 }
 
 /* .work-item h3 {
