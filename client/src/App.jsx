@@ -6,7 +6,7 @@ import Footer from './components/Footer'
 
 import Hero from './pages/Hero'
 import AboutMe from './pages/AboutMe'
-import Portfolio from './pages/Portfolio'
+import Work from './pages/Work'
 import ContactMe from './pages/ContactMe'
 import Resume from './pages/Resume'
 
@@ -25,7 +25,7 @@ function App() {
 
         <Route path="/about-me" element={<AboutMe />} />
 
-        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/work" element={<Work />} />
 
         <Route path="/contact-me" element={<ContactMe />} />
 
