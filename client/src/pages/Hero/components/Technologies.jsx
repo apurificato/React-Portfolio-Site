@@ -1,10 +1,9 @@
 import reactLogo from '/react.svg'
 import viteLogo from '/vite.svg'
-import './learnMore.css'
 
-function LearnMore() {
+function Technologies() {
     return (
-<section>
+  <section id="learn-section">
     <div>
         <h5>This Site Was Created With:</h5>
         <a href="https://vitejs.dev" target="_blank">
@@ -18,8 +17,8 @@ function LearnMore() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-</section>
+  </section>
     )
   }
   
-  export default LearnMore
+  export default Technologies

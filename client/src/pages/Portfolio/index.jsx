@@ -9,7 +9,9 @@ function Portfolio() {
     return (
     <div id="portfolio">
 
-    <h2 id="portfolio-title">See Some of the Work That Ive Done</h2>
+    <h2 id="portfolio-title">My Portfolio</h2>
+
+    <h3 id="portfolio-title-2">See Some of the Work That Ive Done</h3>
 
     <section className="portfolio-section">
 

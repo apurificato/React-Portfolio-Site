@@ -1,0 +1,100 @@
+/* HERO SECTION (Custom Styles) */
+section.hero {
+    background-image: url("/Hero-image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-section {
+    padding: 0 200px;
+    overflow: auto;
+}
+
+.title-section h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: #3b3b3b;
+    text-shadow: #fff 2px 0 10px;
+}
+
+.title-section h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    color: #3b3b3b;
+    text-shadow: #fff 2px 0 10px;
+    margin-top: -20px;
+}
+
+.title-section h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #3b3b3b;
+    text-shadow: #fff 2px 0 10px;
+    margin-top: -50px;
+}
+
+#hero-button {
+    color: #3b3b3b;
+}
+
+/* TECHNOLOGIES SECTION (Custom Styles) */
+
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  #learn-section {
+    padding: 50px 0;
+  }
+  
+  #learn-section h5 {
+    font-size: 20px;
+  }
+  
+  #learn-section h3 {
+    font-size: 30px;
+  }
+  
+  .logo {
+    height: 50px;
+    padding: 25px;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+  
+  .card {
+    padding: 2em;
+  }
+  
+  .read-the-docs {
+    color: #888;
+  }

@@ -1,24 +1,30 @@
+// import { useState } from 'react'
+import {Routes, Route} from 'react-router-dom'
+
 import Header from './components/Header'
-import Hero from './components/Hero'
-import AboutMe from './components/AboutMe'
-import Portfolio from './components/Portfolio'
-import LearnMore from './components/LearnMore'
 import Footer from './components/Footer'
+
+import Hero from './pages/Hero'
+import AboutMe from './pages/AboutMe'
+import Portfolio from './pages/Portfolio'
+
 
 function App() {
   return (
     <>
     <Header />
 
-    <Hero />
-
     <main>
 
-      <AboutMe />
+      <Routes>
 
-      <Portfolio />
+        <Route path="/" element={<Hero />} />
 
-      <LearnMore />
+        <Route path="/about-me" element={<AboutMe />} />
+
+        <Route path="/portfolio" element={<Portfolio />} />
+
+      </Routes>
     
     </main>
 

@@ -4,6 +4,11 @@
     padding-top: 20px;
 }
 
+#portfolio-title-2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+
 .portfolio-section {
     display: flex;
     justify-content: space-around;

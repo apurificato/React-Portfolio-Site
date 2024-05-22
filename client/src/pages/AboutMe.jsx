@@ -1,4 +1,3 @@
-import './aboutMe.css'
 
 function AboutMe() {
     return (
