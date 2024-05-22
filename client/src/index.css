@@ -70,7 +70,7 @@ header nav a:hover {
   color: #00d8ff;
 }
 
-/* ABOUT ME PAGE (CUSTOM STYLING) */
+/* ABOUT ME PAGE STYLES */
 #about-me {
   padding-top: 50px;
 }
@@ -124,6 +124,37 @@ button:focus-visible {
   }
 }
 
+/* CONTACT ME PAGE STYLES */
+#contact-me {
+  padding-top: 50px;
+}
+
+#contact-me h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 42px;
+}
+
+#contact-me h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+/* RESUME PAGE STYLES */
+#resume {
+  padding-top: 50px;
+}
+
+#resume h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 42px;
+}
+
+#resume h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+/* FOOTER STYLES */
 footer {
   padding-top: 50px;
 }

@@ -7,6 +7,9 @@ import Footer from './components/Footer'
 import Hero from './pages/Hero'
 import AboutMe from './pages/AboutMe'
 import Portfolio from './pages/Portfolio'
+import ContactMe from './pages/ContactMe'
+import Resume from './pages/Resume'
+
 
 
 function App() {
@@ -23,6 +26,10 @@ function App() {
         <Route path="/about-me" element={<AboutMe />} />
 
         <Route path="/portfolio" element={<Portfolio />} />
+
+        <Route path="/contact-me" element={<ContactMe />} />
+
+        <Route path="/resume" element={<Resume />} />
 
       </Routes>
     
