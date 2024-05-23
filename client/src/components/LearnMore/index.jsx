@@ -1,12 +1,12 @@
-import reactLogo from './assets/react.svg'
+import reactLogo from '/react.svg'
 import viteLogo from '/vite.svg'
-import './LearnMore.css'
+import './learnMore.css'
 
 function LearnMore() {
     return (
-<>
+<section>
     <div>
-        <h2>This Site Was Created With:</h2>
+        <h5>This Site Was Created With:</h5>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -14,7 +14,7 @@ function LearnMore() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
     </div>
-      <h1>Vite + React</h1>
+      <h3>Vite + React</h3>
       <div className="card">
         <a href='/'>
           <button>Go Back Home</button>
@@ -23,7 +23,7 @@ function LearnMore() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-</>
+</section>
     )
   }
   
