@@ -6,6 +6,8 @@ Front-End portfolio style website made using Vite, React JavaScript library, HTM
 ## Description
 This front-end, simple portfolio website was built using Vite and React, which gave some very minimalistic starter code to work from. Additionally, Vite + React enabled me to quickly install all necessary dependencies to get started and run a development server while coding the website. Since this website uses React, it relies on a single HTML page (index.html), where all of the site's content gets rendered onto. Although there is a downside in terms of the site's Search Engine Optimization (SEO), the benefit of using a technology such as React is that content quickly gets rendered without the site having to refresh or reload. Content will dynamically display as the user clicks around the Navigation links and switches between sections, which each utilize a React component/template for rendering HTML and CSS (for that particular section or "page"). This was a fun challenge that enabled me to get more familiar with using JavaScript in the React environment.
 
+![Anthony-Purificato-React-Portfolio-Homepage-Screenshot](https://github.com/apurificato/React-Portfolio-Site/assets/161912493/bb99ad98-1624-4aae-888c-59c4ef441c77)
+
 ## Project Structure
 - /client
     - /node_modules
