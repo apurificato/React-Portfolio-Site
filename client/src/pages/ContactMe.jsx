@@ -4,6 +4,7 @@ function ContactMe() {
     <section id="contact-me">
         <h2>Contact Me</h2>
         <h3>Reach Out to Me So We Can Build Something Cool Together.</h3>
+        <h5>Just quickly fill out and submit this form and I will get back to you within 24 hours!</h5>
         <div>
             <form action="https://api.web3forms.com/submit" method="POST">
                 <ul>

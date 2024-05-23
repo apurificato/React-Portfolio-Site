@@ -9,6 +9,7 @@ function Resume() {
                 <button type="button">Download Resume</button>
             </a>
         </div>
+        <h5>Thank you for visiting my site. I look forward to connecting with you soon!</h5>
     </section>
 
     )
