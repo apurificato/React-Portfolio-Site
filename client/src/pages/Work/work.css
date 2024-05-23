@@ -2,16 +2,6 @@
 #portfolio {
     padding: 50px 0 100px;
   }
-  
-  #portfolio h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 42px;
-  }
-  
-  #portfolio h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-  }
 
 .portfolio-section {
     display: grid;
@@ -21,20 +11,68 @@
     gap: 20px;
 }
 
+#work-item-1 {
+  background-image: url("/Wine-Dine-Recipe-App.png");
+  background-size: cover;
+}
+
+#work-item-2 {
+  background-image: url("/WinBig-Casino-Betting-App.png");
+  background-size: cover;
+}
+
+#work-item-3 {
+  background-image: url("/Note-Taker-App.png");
+  background-size: cover;
+}
+
+/* #work-item-3 h5 {
+  color:rgb(255, 162, 145);
+} */
+
+#work-item-4 {
+  background-image: url("/Employee-Database-Application-in-VSCode-Terminal-screenshot.png");
+  background-size: cover;
+}
+
+#work-item-5 {
+  background-image: url("/Tech-Notes-Web-Design-Technology-Blog-Website.png");
+  background-size: cover;
+}
+
+#work-item-6 {
+  background-image: url("/README-Generator-App-Screenshot.png");
+  background-size: cover;
+}
+
 .work-item {
     text-align: left;
     color: bisque;
     background-color: #535bf2;
     padding: 20px;
+    border: 1px rgb(190, 255, 124) solid;
     border-radius: 5px;
+}
+
+.work-item-overlay {
+  background-color:rgba(47, 79, 79, 0.644);
+  border-radius: 5px;
 }
 
 .work-item h3 {
   text-align: center;
+  color: rgb(190, 255, 124);
 }
 
+.work-item h5 {
+  font-size: 14px;
+  color: bisque;
+  padding: 0 10px
+}
+
+
 .work-item #work-link-1 {
-  color: rgb(190, 255, 124);
+  color: #049fff;
   padding-right: 20px;
 }
 
@@ -44,31 +82,15 @@
 }
 
 #work-link-1:hover {
-  color: #3b3b3b;
+  color: #7ed957;
 }
 
 #work-link-2:hover {
-  color: #3b3b3b;
+  color: #7ed957;
 }
 
 .work-links {
   display: flex;
   justify-content: space-around;
+  padding-bottom: 10px;
 }
-
-/* .work-item h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    color: #3b3b3b;
-}
-
-.work-item h5 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: #3b3b3b;
-} */
-
-/* .work-item:hover {
-    cursor: pointer;
-    box-shadow: inset 0 0 0 300px rgba(181, 255, 196, 0.3);
-} */
