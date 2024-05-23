@@ -1,9 +1,12 @@
+import { NavLink } from 'react-router-dom'
+
 function Navigation() {
     return (
         <nav>
-            <a href="#about-me">About Me</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact-me">Contact Me</a>
+            <NavLink to="/about-me">About Me</NavLink>
+            <NavLink to="/work">My Work</NavLink>
+            <NavLink to="/contact-me">Contact Me</NavLink>
+            <NavLink to="/resume">Resume</NavLink>
         </nav>
     )
   }

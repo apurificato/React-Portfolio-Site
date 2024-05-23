@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #3b3b3b;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,15 +15,22 @@
 
 /* RESETS */
 
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
 #root {
   padding: 0;
   margin: 0;
   max-width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-html, body {
-    padding: 0;
-    margin: 0;
+main {
+  flex: 1;
 }
 
 a {
@@ -60,12 +67,36 @@ header .brand {
 header nav a {
   justify-content: space-betw;
   padding-left: 25px;
-  color: #7ed957;
+  /* color: #7ed957; */
+  color: bisque;
   font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header nav a:hover {
-  color: #fff;
+  color: #535bf2;
+}
+
+/* ABOUT ME PAGE STYLES */
+#about-me {
+  padding: 50px 0 100px;
+}
+
+#about-me h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 42px;
+}
+
+#about-me h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+#about-me p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 10px 50px;
+  text-align: left;
 }
 
 button {
@@ -100,13 +131,99 @@ button:focus-visible {
   }
 }
 
+/* CONTACT ME PAGE STYLES */
+#contact-me {
+  padding: 50px 0 100px;
+}
+
+#contact-me h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 42px;
+}
+
+#contact-me h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+#contact-me form {
+  display: inline-block;
+  padding: 1em;
+  border: 1px solid bisque;
+  border-radius: 1em;
+}
+
+#contact-me form .button {
+  padding-top: 20px;
+}
+
+#contact-me ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#contact-me form label {
+  display: flex;
+  flex-direction: column;
+  min-width: 90px;
+  text-align: left;
+}
+
+#contact-me form input, textarea {
+  font: 1em sans-serif;
+  width: 400px;
+  box-sizing: border-box;
+  border: 1px solid bisque;
+}
+
+#contact-me form textarea {
+  padding: 50px;
+}
+
+
+/* RESUME PAGE STYLES */
+#resume {
+  padding: 50px 0 100px;
+}
+
+#resume h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 42px;
+}
+
+#resume h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+#resume #download-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* #resume a {
+  border: 1px bisque solid;
+  border-radius: 6px;
+  padding: 50px;
+  text-align: center;
+  justify-content: center;
+  width: 20%;
+} */
+
+/* FOOTER STYLES */
+footer {
+  border-top: .5px rgb(135, 135, 135) solid;
+}
+
 footer .brand {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 20px;
+  align-items: center;
 }
 
-.footer-logo-item {
-  height: 40px;
+a .footer-logo-item {
+  height: 30px;
 }
