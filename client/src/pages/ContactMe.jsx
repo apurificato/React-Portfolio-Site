@@ -5,22 +5,24 @@ function ContactMe() {
         <h2>Contact Me</h2>
         <h3>Reach Out to Me So We Can Build Something Cool Together.</h3>
         <div>
-            <form action="/form-submitted" method="post">
+            <form action="https://api.web3forms.com/submit" method="POST">
                 <ul>
+                    <input type="hidden" name="access_key" value="407a7ac5-808f-4f76-a23c-82e1c88be2d1" />
+                    <input type="hidden" name="subject" value="New Message From User" />
                     <li>
-                        <label htmlFor="name">Name:</label>
-                        <input type="text" id="name" name="user_name" />
+                        <label htmlFor="name">Enter your name</label>
+                        <input type="text" id="name" name="name" required />
                     </li>
                     <li>
-                        <label htmlFor="mail">Email:</label>
-                        <input type="email" id="mail" name="user_email" />
+                        <label htmlFor="email">Enter email</label>
+                        <input type="email" id="mail" name="email" required />
                     </li>
                     <li>
-                        <label htmlFor="msg">Message:</label>
-                        <textarea id="msg" name="user_message"></textarea>
+                        <label htmlFor="msg">Enter your message</label>
+                        <textarea id="msg" name="message" required></textarea>
                     </li>
                     <li className="button">
-                        <button type="submit">Send your message</button>
+                        <button type="submit">Submit</button>
                     </li>
                 </ul>
             </form>

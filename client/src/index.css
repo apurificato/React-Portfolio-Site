@@ -203,14 +203,14 @@ button:focus-visible {
   align-items: center;
 }
 
-#resume form {
+/* #resume a {
   border: 1px bisque solid;
   border-radius: 6px;
   padding: 50px;
   text-align: center;
   justify-content: center;
   width: 20%;
-}
+} */
 
 /* FOOTER STYLES */
 footer {
