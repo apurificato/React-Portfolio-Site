@@ -34,7 +34,10 @@ This front-end, simple portfolio website was built using Vite and React, which g
 - Github (website hosted and deployed on Github servers)
 
 ## How to Use
-This website, being Front-End is straightforward to use. The only real difference, due to the technology being used, is that React will dynamically render HTML and CSS files (and consequently content) as the user navigates the site and clicks around. Along with most other standard websites, there is a mixture of content and elements within the site, including a header, footer, links, buttons, and various pages. Since this is a portfolio website, when a user visits and interacts with the site, the main purpose will be to learn a little more about me, see some of the work that I've developed, fill out a contact form, and download my resume. The user will be able to do all of this by simply clicking around the site. The main goal here is for the user to see some of the projects I've completed, as well as contact me in some way. The work section of the site contains links to github repositories and demo urls for each of the corresponding work item cards. 
+This website, being Front-End is straightforward to use. The only real difference, due to the technology being used, is that React will dynamically render HTML and CSS files (and consequently content) as the user navigates the site and clicks around. Along with most other standard websites, there is a mixture of content and elements within the site, including a header, footer, links, buttons, and various pages. Since this is a portfolio website, when a user visits and interacts with the site, the main purpose will be to learn a little more about me, see some of the work that I've developed, fill out a contact form, and download my resume. The user will be able to do all of this by simply clicking around the site. The main goal here is for the user to see some of the projects I've completed, as well as contact me in some way. The work section of the site contains links to github repositories and demo urls for each of the corresponding work item cards.
+
+## Demo/Deployment
+Live URL: https://anthony-purificato-react-portfolio.netlify.app/
 
 ## Contributions
 Website built from start to finish by Anthony Purificato using Vite and React.
